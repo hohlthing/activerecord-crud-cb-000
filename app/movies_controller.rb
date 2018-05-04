@@ -24,7 +24,7 @@ end
 
 def can_be_created_in_a_block(args = {})
   Movie.create do |m|
-    if args = {}
+    if args == {}
       m.title = "Home Alone"
       m.release_date = 1990
     else
