@@ -31,6 +31,7 @@ def can_be_created_in_a_block(args = {})
       args.each do |k, v|
       m[k] = v
     end
+    end
   end
 end
 
